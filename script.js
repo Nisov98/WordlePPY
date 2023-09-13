@@ -1,5 +1,9 @@
+const palabras = ["APPLE", "HURLS", "WINGS", "YOUTH", "CHALK", "CLOUD", "FLAME"];
+
+const palabraAleatoria = palabras[Math.floor(Math.random() * palabras.length)];
+
 let intentos = 6;
-let palabra = "APPLE";
+let palabra = palabraAleatoria;
 
 window.addEventListener('load', init);
 
